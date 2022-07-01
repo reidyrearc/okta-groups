@@ -5,7 +5,6 @@ terraform {
       version = "~> 3.20"
     }
   }
-  backend "s3" {}
 }
 
 # resource "okta_group" "example1" {
